@@ -1,0 +1,143 @@
+ELRUMI Creative Studio
+
+	teal colour: #92fcf9
+	yellow colour: #ffd96d
+
+::::: FONTS :::::
+
+		Headings - Montserrat
+
+		Body Copy - Droid Serif
+
+		Smallest font size = 14px
+
+		H1 Font Size ("We Are Erlumi Creative") = 70px
+
+
+::::: COPY - HOME PAGE :::::
+
+	WE ARE ELRUMI
+	WE ARE PASSIONATE ABOUT GREAT DESIGN
+
+	We Are a creative studio specializing in web design, web development, graphic design. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et q   uinta decima. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+		PHOTOSHOP 	WEB MOCKUP
+		INDESIGN 	PRINT DESIGN
+		WORDPRESS 	DEVELOPMENT
+		HTML5		WEB DESIGN
+
+
+	WHAT CAN WE DO
+
+		BRAND IDENTITY
+		& STATEGY
+
+		WEB DESIGN
+		& DEVELOPMENT
+
+		DESIGN
+		& ILLUSTRATION
+
+		PHOTOGRAPHY
+		& PHOTO RETOUCHING
+
+	 	Claritas est etia processust dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.
+
+	 	LEARN MORE
+
+	OUR FACTS
+	Some Facts in Digits
+
+		574 PROJECTS FINISHED
+		456 WEBSITES RELEASED
+		78 LOGOS DESIGNED
+		1554 SONGS LISTENED
+		978 MOVIES WATCHED
+
+
+	CONTACT US
+
+		Have a Project? Let’s Talk About It.
+
+		+1(234)567-8900
+
+		160TH CIHAMPELAS STREET, BANDUNG 40131, INDONESIA
+		SAYHELLO@ELRUMI.COM
+
+		NAME
+		EMAIL
+		SUBJECT
+		MESSAGE
+
+::::: COPY - WORK PAGE :::::
+
+	YOU HAVE TO BE ODD TO BE NUMBER ONE
+	Branding, Graphic Design
+
+	DESCRIPTION
+	Claritas est etia processust dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.
+
+	Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+
+	Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla quia et pariatur. Excepteur sint occaecat cupidatat non proident.
+
+	Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+
+
+	PROJECT DETAILS
+
+		CLIENT
+		ENVATO MARKET
+
+		DATE
+		February 14, 2015
+
+		WHAT WE DID
+		1. Logo Design
+		2. Website
+
+		TOOLS
+		1. Photoshop
+
+		CATEGORY
+		Branding, Web Design, Wordpress
+
+		SHARE THIS
+
+
+::::: COPY - BLOG PAGE :::::
+
+	background: http://subtlepatterns.com/swirl-2/
+
+	DISCOVER OUR NEWS & STAY INSPIRED
+
+		OUR BLOG
+		Latest News and More
+
+			YOU DON’T NEED EYES TO SEE
+
+			January 13, 2015
+			4 Comments
+			Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non perspiciatis unde omnis voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+
+			READ MORE
+
+
+			“Working with Elrumi was extremely fun, they delivered results on time and sometimes even ahead of schedule.” DAVE AUGUST
+
+
+			INTERVIEW WITH MICHELLE MAY
+			Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non perspiciatis unde omnis voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+
+
+			Elrumi loves our affiliates! Thank you to Creative Digital Studios for all your support and sponsorship!
+			HTTP://CREATIVEFAKESTUDIO.COM
+
+
+			THE BEAUTIFUL FLOWER CROWN
+
+			January 13, 2015
+			4 Comments
+			Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non perspiciatis unde omnis voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+
+			OLDER POSTS
