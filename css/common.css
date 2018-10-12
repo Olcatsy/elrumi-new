@@ -1,8 +1,53 @@
-.flexbox {
-  display: flex;
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
+
 
 a {
   text-decoration: none;
   color: #000000;
 }
+
+li {
+  display: inline-block;
+}
+
+ul {}
+
+.flexbox {
+  display: flex;
+}
+
+.outer-container {
+  width: 85%;
+  margin: auto;
+}
+
+.capital {
+  text-transform: uppercase;
+}
+
+/* HEADER */
+header{
+  width: 85%;
+  position: absolute;
+  top: 0;
+}
+
+.header__container {
+  justify-content: space-around;
+}
+
+.logo__container {
+  box-sizing: border-box;
+  margin: auto auto auto 0;
+}
+
+.logo {}
+/* End of HEADER*/
+
+
+/* DRAWN ELEMENTS*/
