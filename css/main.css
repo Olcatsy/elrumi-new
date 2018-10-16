@@ -1,3 +1,32 @@
+/* HERO */
+
+.hero {
+  background-image: url(../assets/home/hero.jpg);
+  background-size: cover;
+  background-position: right bottom;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .outer__container {
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 14px;
+  margin: 0;
+}
+
+@media screen and (min-width: 875px) {
+  h1 { font-size: 4rem;}
+}
+/* End of HERO */
+
 .skills__item {
   flex-direction: column;
 }
