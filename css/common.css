@@ -22,8 +22,9 @@ ul {}
 }
 
 .outer__container {
-  width: 85%;
+  width: 80%;
   margin: auto;
+  max-width: 1000px;
 }
 
 .capital {
@@ -51,3 +52,24 @@ header{
 
 
 /* DRAWN ELEMENTS*/
+.circle {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 100%;
+  background-color: black;
+  margin: 3px 15px;
+}
+
+.line {
+  display: block;
+  width: 35px;
+  height: 2px;
+  background-color: black;
+}
+
+.triangle {
+  display: inline-block;
+  border: 6px solid transparent;
+  border-left: 6px solid black;
+}

@@ -34,18 +34,17 @@ h1 {
   padding: 65px 0 65px 0;
 }
 
-.about__image {
-  padding: 30px;
-  z-index: 1;
+.image__container {
+  background-color: #ffd96d;
+  width: 300px;
+  height: 300px;
+  margin: 30px auto;
 }
 
-  /*.about__image::before {
-    content: "";
-    z-index: -1;
-    width: 300px;
-    height: 300px;
-    background-color: #ffd96d;
-  }*/
+.about__image {
+  margin-top: 30px;
+  margin-left: -30px
+}
 
 .about p {
   text-align: justify;
@@ -56,12 +55,40 @@ h1 {
 
 /* SKILLS */
 .skills {
-  background-color: gainsboro;
+  background-color: #f2f4f7;
 }
+
+.skills .outer__container {
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+  @media screen and (min-width: 1070px) {
+    .skills .outer__container {
+      flex-direction: row;
+    }
+  }
 
 .skills__item {
   flex-direction: column;
   background-color: white;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
 }
+
+.skills .item__header {
+  margin-top: 0;
+}
+
+.skills__icon {
+  width: 150px;
+}
+
+.skills__percentage {
+  margin-top: -20px;
+}
+
 
 /* End of SKILLs */
