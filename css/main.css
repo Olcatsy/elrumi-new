@@ -43,7 +43,7 @@ h1 {
 
 .about__image {
   margin-top: 30px;
-  margin-left: -30px
+  margin-left: -30px;
 }
 
 .about p {
@@ -60,23 +60,43 @@ h1 {
 
 .skills .outer__container {
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: space-between;
-  padding: 40px 0;
+  align-content: space-between;
+  padding: 45px 0;
+}
+
+.skills__item {
+  flex-direction: column;
+  background-color: white;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 15px 0;
+}
+
+@media screen and (min-width: 660px) {
+  .skills .outer__container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .skills__item {
+    width: 40%;
+  }
 }
 
   @media screen and (min-width: 1070px) {
     .skills .outer__container {
       flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .skills__item {
+      width: 18%;
     }
   }
-
-.skills__item {
-  flex-direction: column;
-  background-color: white;
-  padding: 30px;
-  justify-content: center;
-  align-items: center;
-}
 
 .skills .item__header {
   margin-top: 0;
@@ -89,6 +109,7 @@ h1 {
 .skills__percentage {
   margin-top: -20px;
 }
+
 
 
 /* End of SKILLs */
