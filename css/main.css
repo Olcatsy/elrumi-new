@@ -110,6 +110,16 @@ h1 {
   margin-top: -20px;
 }
 
-
-
 /* End of SKILLs */
+
+
+/* SERVICES */
+.services__container {
+  grid-template: repeat(6, 1fr) / 1fr 5fr 1fr 5fr;
+  grid-column-gap:;
+  grid-row-gap:;
+}
+
+
+
+/* End of SERVICES */
