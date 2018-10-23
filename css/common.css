@@ -21,6 +21,10 @@ ul {}
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .outer__container {
   width: 80%;
   margin: auto;
