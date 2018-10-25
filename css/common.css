@@ -33,7 +33,7 @@ li {
 }
 
 header .outer__container {
-  padding: 0;
+  padding: 0 20px;
 }
 
   @media screen and (min-width: 660px) {
@@ -50,10 +50,39 @@ header .outer__container {
   text-transform: uppercase;
 }
 
+.logo, .nav-item, h1, h2, h3, .skills-percent, .copy-big, .section-header,
+.facts-number, .form__input, .social__item  {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 3px;
+}
 
+.logo, h2, h3, .skills-percent, .section-header, .facts-number, .large-teal {
+    font-weight: bold;
+}
+
+.logo, h2, .facts-number {
+  font-size: 1.5em;
+}
+
+.copy-big {
+  font-size: 1em
+}
+
+
+
+.copy, .section-subheader {
+  font-family: "Roboto Slab", serif;
+  font-size: 14px;
+}
+
+.copy {
+  color: grey;
+}
+
+.section-subheader {
+  font-style: italic;
+}
 /* End of TYPOGRAPHY */
-
-
 
 
 
@@ -89,6 +118,7 @@ header .outer__container {
 
 
 
+
 /* HEADER */
 
 header{
@@ -105,8 +135,6 @@ header{
   box-sizing: border-box;
   margin: auto auto auto 0;
 }
-
-.logo {}
 
 /* End of HEADER*/
 
