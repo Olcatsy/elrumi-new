@@ -26,6 +26,7 @@ li {
 .outer__container {
   margin: 0 2.5%;
   max-width: 1000px;
+  padding: 50px 0;
 }
 
   @media screen and (min-width: 660px) {
@@ -97,7 +98,7 @@ header{
 
 /*SECTION HEADER */
 .section-header__container {
-    margin: 100px auto 50px auto;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -108,7 +109,7 @@ header{
 }
 
 .section-subheader {
-  margin: 10px;
+  margin: 10px 0;
 }
 
 .section-header__container .line {
