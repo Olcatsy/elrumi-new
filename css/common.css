@@ -15,8 +15,6 @@ li {
   display: inline-block;
 }
 
-ul {}
-
 .flexbox {
   display: flex;
 }
@@ -26,14 +24,24 @@ ul {}
 }
 
 .outer__container {
-  width: 80%;
-  margin: auto;
+  margin: 0 2.5%;
   max-width: 1000px;
 }
 
+  @media screen and (min-width: 660px) {
+    .outer__container {
+      margin: 0 10%;
+    }
+  }
+
+/*TYPOGRAPHY*/
 .capital {
   text-transform: uppercase;
 }
+
+/* End of TYPOGRAPHY */
+
+
 
 /* HEADER */
 header{
@@ -75,6 +83,34 @@ header{
 
 .triangle {
   display: inline-block;
-  border: 6px solid transparent;
+  border: 5px solid transparent;
   border-left: 6px solid black;
+  position: relative;
+  margin-left: 10px;
+}
+/* End of DRAWN ELEMENTS */
+
+/* LEARN MORE button */
+.more-button p {
+  display: inline-block;
+}
+
+/*SECTION HEADER */
+.section-header__container {
+    margin: 100px auto 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-header {
+  margin: 0;
+}
+
+.section-subheader {
+  margin: 10px;
+}
+
+.section-header__container .line {
+  margin-top: 5px;
 }
