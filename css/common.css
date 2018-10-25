@@ -5,10 +5,13 @@ body, html {
     height: 100%;
 }
 
-
 a {
   text-decoration: none;
   color: #000000;
+}
+
+ul {
+  padding: 0;
 }
 
 li {
@@ -24,9 +27,9 @@ li {
 }
 
 .outer__container {
-  margin: 0 2.5%;
+  margin: auto;
   max-width: 1000px;
-  padding: 50px 0;
+  padding: 60px 20px;
 }
 
 header .outer__container {
@@ -35,40 +38,28 @@ header .outer__container {
 
   @media screen and (min-width: 660px) {
     .outer__container {
-      margin: 0 10%;
+      margin: auto;
     }
   }
 
+
+
 /*TYPOGRAPHY*/
+
 .capital {
   text-transform: uppercase;
 }
+
 
 /* End of TYPOGRAPHY */
 
 
 
-/* HEADER */
-header{
-  width: 100%;
-  position: absolute;
-  top: 0;
-}
 
-.header__container {
-  justify-content: space-around;
-}
-
-.logo__container {
-  box-sizing: border-box;
-  margin: auto auto auto 0;
-}
-
-.logo {}
-/* End of HEADER*/
 
 
 /* DRAWN ELEMENTS*/
+
 .circle {
   display: inline-block;
   width: 4px;
@@ -93,12 +84,43 @@ header{
   position: relative;
   margin-left: 10px;
 }
+
 /* End of DRAWN ELEMENTS */
 
+
+
+/* HEADER */
+
+header{
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.header__container {
+  justify-content: space-around;
+}
+
+.logo__container {
+  box-sizing: border-box;
+  margin: auto auto auto 0;
+}
+
+.logo {}
+
+/* End of HEADER*/
+
+
+
 /* LEARN MORE button */
+
 .more-button p {
   display: inline-block;
 }
+
+/* End of LEARN MORE button
+
+
 
 /*SECTION HEADER */
 .section-header__container {
@@ -119,3 +141,31 @@ header{
 .section-header__container .line {
   margin-top: 5px;
 }
+
+/* End of SECTION HEADER */
+
+
+
+/* FOOTER */
+footer {
+  background-color: #ffd96d;
+  text-align: center;
+  padding: 30px;
+}
+
+.social {
+  flex-direction: column;
+}
+
+.social__item {
+  display: block;
+}
+
+  @media screen and (min-width: 660px) {
+    .social {
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+
+/* End of FOOTER */
