@@ -29,6 +29,10 @@ li {
   padding: 50px 0;
 }
 
+header .outer__container {
+  padding: 0;
+}
+
   @media screen and (min-width: 660px) {
     .outer__container {
       margin: 0 10%;
