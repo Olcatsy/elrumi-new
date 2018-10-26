@@ -82,7 +82,7 @@ h1 {
   @media screen and (min-width: 660px) {
     .skills .outer__container {
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: space-around;
     }
 
     .skills__item {
@@ -254,7 +254,7 @@ h1 {
   display: block;
   color: white;
   background-color: black;
-  padding: 10px 40px;
+  padding: 20px 50px;
   border: none;
   outline: none;
   margin: auto;

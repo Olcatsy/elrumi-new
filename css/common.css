@@ -10,6 +10,10 @@ a {
   color: #000000;
 }
 
+a:hover {
+  color: #ffd96d;
+}
+
 ul {
   padding: 0;
 }
@@ -53,26 +57,28 @@ header .outer__container {
 .logo, .nav-item, h1, h2, h3, .skills-percent, .copy-big, .section-header,
 .facts-number, .form__input, .social__item  {
   font-family: "Montserrat", sans-serif;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
 }
 
-.logo, h2, h3, .skills-percent, .section-header, .facts-number, .large-teal {
-    font-weight: bold;
+.logo, h2, h3, .skills-percent, .section-header, .facts-number, .large-teal, .nav-item, .social__item {
+    font-weight: 700;
 }
 
 .logo, h2, .facts-number {
   font-size: 1.5em;
 }
 
-.copy-big {
-  font-size: 1em
+.copy-big, .nav-item, .social__item {
+  font-size: 0.8rem;
 }
 
-
+.copy-big {
+  font-weight: 500;
+}
 
 .copy, .section-subheader {
   font-family: "Roboto Slab", serif;
-  font-size: 14px;
+  font-size: 0.9rem;
 }
 
 .copy {
@@ -136,11 +142,24 @@ header{
   margin: auto auto auto 0;
 }
 
+.nav {
+  display: none;
+}
+
+  @media screen and (min-width: 768px) {
+    .nav {
+      display: inline-block;
+    }
+  }
+
 /* End of HEADER*/
 
 
 
 /* LEARN MORE button */
+.more-button {
+  padding: 16px 0;
+}
 
 .more-button p {
   display: inline-block;
@@ -193,6 +212,10 @@ footer {
     .social {
       flex-direction: row;
       justify-content: center;
+    }
+
+    .social__item {
+      display: inline-block;
     }
   }
 
