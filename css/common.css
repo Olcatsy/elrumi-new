@@ -11,7 +11,11 @@ a {
 }
 
 a:hover {
-  color: #ffd96d;
+  color: #ff9496;
+}
+
+a:active {
+  color: #ffb3b4;
 }
 
 ul {
@@ -111,15 +115,6 @@ header .outer__container {
   background-color: black;
   margin-top: -5px;
 }
-
-.triangle {
-  display: inline-block;
-  border: 5px solid transparent;
-  border-left: 6px solid black;
-  position: relative;
-  margin-left: 10px;
-}
-
 /* End of DRAWN ELEMENTS */
 
 
@@ -139,7 +134,7 @@ header{
 
 .logo__container {
   box-sizing: border-box;
-  margin: auto auto auto 0;
+  margin: 5px auto;
 }
 
 .nav {
@@ -147,6 +142,10 @@ header{
 }
 
   @media screen and (min-width: 768px) {
+    .logo__container {
+      margin: auto auto auto 0;
+    }
+
     .nav {
       display: inline-block;
     }
@@ -163,6 +162,12 @@ header{
 
 .more-button p {
   display: inline-block;
+}
+
+.more-button i {
+  font-size: 0.9rem;
+  position: relative;
+  top: 3px;
 }
 
 /* End of LEARN MORE button
