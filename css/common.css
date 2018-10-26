@@ -34,18 +34,18 @@ li {
   display: grid;
 }
 
-.outer__container {
+.outer-container {
   margin: auto;
   max-width: 1000px;
   padding: 60px 20px;
 }
 
-header .outer__container {
+header .outer-container {
   padding: 0 20px;
 }
 
   @media screen and (min-width: 660px) {
-    .outer__container {
+    .outer-container {
       margin: auto;
     }
   }
@@ -211,6 +211,11 @@ footer {
 
 .social__item {
   display: block;
+  margin: 10px 0;
+}
+
+.social__item  a, .nav-item a {
+  padding: 15px 0;
 }
 
   @media screen and (min-width: 660px) {
@@ -222,6 +227,11 @@ footer {
     .social__item {
       display: inline-block;
     }
+
+    .social__item  a, .nav-item a {
+        padding: 20px 0;
+    }
   }
+
 
 /* End of FOOTER */

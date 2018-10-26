@@ -13,7 +13,7 @@
     .hero {height: 50vh;}
   }
 
-.hero .outer__container {
+.hero .outer-container {
   text-align: center;
 }
 
@@ -62,7 +62,7 @@ h1 {
   background-color: #f2f4f7;
 }
 
-.skills .outer__container {
+.skills .outer-container {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -80,7 +80,7 @@ h1 {
 }
 
   @media screen and (min-width: 660px) {
-    .skills .outer__container {
+    .skills .outer-container {
       flex-direction: row;
       justify-content: space-around;
     }
@@ -92,7 +92,7 @@ h1 {
 
 
   @media screen and (min-width: 1070px) {
-    .skills .outer__container {
+    .skills .outer-container {
       flex-direction: row;
       justify-content: space-between;
     }
