@@ -1,3 +1,20 @@
+main {
+  text-align: center;
+}
+
+main .inner-container {
+  margin: auto;
+  max-width: 900px;
+  padding: 60px 20px;
+}
+
+@media screen and (min-width: 660px) {
+  .outer-container {
+    margin: auto;
+  }
+}
+
+
 
 /* HERO */
 .hero {
@@ -5,7 +22,6 @@
   color: white;
   height: 60vh;
   align-items: center;
-  justify-content: center;
   text-align: center;
 }
 
@@ -15,18 +31,18 @@
 
 h1 {
   color: white;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 600;
-  letter-spacing: 14px;
-  margin: 0;
+  letter-spacing: 4px;
+  margin: 0 20px;
 }
 
   @media screen and (min-width: 875px) {
-    h1 { font-size: 4rem;}
+    h1 {
+      font-size: 3rem;
+      letter-spacing: 10px;
+    }
   }
-
-
-
 /* End of HERO */
 
 
@@ -34,12 +50,30 @@ h1 {
 /* BLOG */
 
 /* Blog posts */
-.post__subtitle, .post__subtitle img, .post__subtitle p {
+.blogpost, .block {
+  margin: 60px -1px;
+}
+
+.post__subtitle, .post__subtitle * {
   display: inline-block;
+}
+
+.post__subtitle {
+  margin: 5px 15px;
+}
+
+.post__subtitle * {
+  margin: 0 5px;
 }
 
 .post__img {
   max-width: 100%;
+  margin: 20px 0;
+}
+
+.copy {
+  text-align: justify;
+  margin: 0 0 25px 0;
 }
 
 /* End of blog posts */
@@ -50,17 +84,26 @@ h1 {
 .block {
   border: 2px solid black;
   padding: 10px;
-  background-image: url("../assets/blog/sneaker_mesh_fabric.png");
-  background-color: #E6E6E6;
+
   text-align: center;
 }
 
 .block__inner {
-  
+  background-image: url("../assets/blog/sneaker_mesh_fabric.png");
+  margin: auto;
+  padding: 35px 20px;
 }
+
+.block__quote {}
+
+.block__link-desc {}
+
+.block__link {
+  letter-spacing: 2px;
+  font-size: 0.7rem;
+  padding: 20px 0;
+  font-weight: 700;
+}
+
 /* End of Blocks */
-
-
-
-
 /* End of BLOG */

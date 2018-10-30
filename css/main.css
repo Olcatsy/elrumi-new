@@ -121,7 +121,7 @@ h1 {
 /* SERVICES */
 .services__container {
   grid-template: repeat(12, 1fr) / 1fr 5fr;
-  grid-gap: 20px 15px;
+  grid-gap: 50px 15px;
 }
 
 .services__icon1 {grid-area: 1 / 1 / span 1 / span 1;}
@@ -140,12 +140,15 @@ h1 {
 
 .services__item4 {grid-area: 10 / 2 / span 4 / span 1 ;}
 
+.services__container p {
+  margin: 20px 0;
+}
 
   @media screen and (min-width: 660px) {
 
     .services__container {
       grid-template: repeat(6, 1fr) / 1fr 5fr 1fr 5fr;
-      grid-gap: 30px 20px;
+      grid-gap: 40px 20px;
     }
 
     .services__icon1 {grid-area: 1 / 1 / span 1 / span 1;}
@@ -163,8 +166,21 @@ h1 {
     .services__item3 {grid-area: 1 / 4 / span 4 / span 1 ;}
 
     .services__item4 {grid-area: 4 / 4 / span 4 / span 1 ;}
+
   }
 
+  @media screen and (min-width: 786px) {
+    .services__container {
+      grid-template: repeat(6, 1fr) / 1fr 5fr 1fr 5fr;
+      grid-gap: 40px 20px;
+    }
+  }
+
+  @media screen and (min-width: 10700px) {
+    .services__container {
+      grid-gap: 30px 20px;
+      }
+  }
 
 .services .item_header {
   margin-top: 0;

@@ -1,3 +1,29 @@
+/* COLOR PALETTE
+#92FCF8 - teal
+#cefdfd - light teal (active submit button)
+#FFD96D - yellow
+#FFE6A2 - ligth yellow (active read-more button)
+#FF9496 - salmon pink (hover links)
+#FFB3B4 - lighter salmon pink (active links)
+#e6e6e6 - platinum grey
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+
+
+
+
 body, html {
     margin: 0;
     padding: 0;
@@ -51,11 +77,14 @@ header .outer-container {
   }
 
 
-
 /*TYPOGRAPHY*/
 
-.capital {
+.uppercase {
   text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
 
 .logo, .nav-item, h1, h2, h3, .skills-percent, .copy-big, .section-header,
@@ -157,7 +186,19 @@ header{
 
 /* LEARN MORE button */
 .more-button {
-  padding: 16px 0;
+  padding: 20px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.more-button:hover {
+  background-color: #FFD96D;
+  color: white;
+  padding: 20px 15px;
+}
+
+.more-button:active {
+  background-color: #FFE6A2;
+  color: white;
 }
 
 .more-button p {
@@ -165,6 +206,7 @@ header{
 }
 
 .more-button i {
+  display: inline-block;
   font-size: 0.9rem;
   position: relative;
   top: 3px;
