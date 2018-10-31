@@ -6,29 +6,13 @@
 #FF9496 - salmon pink (hover links)
 #FFB3B4 - lighter salmon pink (active links)
 #e6e6e6 - platinum grey
-
-
-
-
-
-
-
-
-
-
-
-
 */
 
-
-
-
-
 body, html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
 
 a {
@@ -118,9 +102,6 @@ header .outer-container {
   color: grey;
 }
 
-.section-subheader {
-  font-style: italic;
-}
 /* End of TYPOGRAPHY */
 
 
@@ -192,13 +173,14 @@ header{
 
 .more-button:hover {
   background-color: #FFD96D;
-  color: white;
+  color: black;
   padding: 20px 15px;
 }
 
 .more-button:active {
   background-color: #FFE6A2;
-  color: white;
+  color: black;
+  padding: 20px 15px;
 }
 
 .more-button p {
@@ -230,6 +212,7 @@ header{
 
 .section-subheader {
   margin: 10px 0;
+  font-style: italic;
 }
 
 .section-header__container .line {

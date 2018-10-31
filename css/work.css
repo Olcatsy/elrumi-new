@@ -1,0 +1,43 @@
+
+/* PAGE TITLE */
+.page-title .outer-container {
+  text-align: center;
+  position: relative;
+  bottom: -36px;
+}
+/* End of PAGE TITLE */
+
+
+
+/* HERO */
+.hero__img {
+  max-width: 100%;
+}
+/* END of HERO*/
+
+
+
+/* WORK */
+.work .outer-container {
+  flex-direction: column;
+}
+
+  @media screen and (min-width: 786px) {
+    .work .outer-container {
+      flex-direction: row;
+    }
+  }
+
+
+/* WORK -- DESCRIPTION (left column)*/
+/* End of WORK -- DESCRIPTION */
+
+
+
+/* WORK -- PROJECT (right column) */
+.project {
+  flex-direction: column;
+}
+/* End of WORK -- PROJECT */
+
+/* End of WORK */
