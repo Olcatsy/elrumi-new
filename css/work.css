@@ -30,6 +30,13 @@
 
 
 /* WORK -- DESCRIPTION (left column)*/
+.desc {
+  max-width: 770px;
+}
+
+.desc__img {
+  max-width: 100%;
+}
 /* End of WORK -- DESCRIPTION */
 
 
