@@ -74,7 +74,7 @@ header .outer-container {
 .logo, .nav-item, h1, h2, h3, .skills-percent, .copy-big, .section-header,
 .facts-number, .form__input, .social__item  {
   font-family: "Montserrat", sans-serif;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
 }
 
 .logo, h2, h3, .skills-percent, .section-header, .facts-number, .large-teal, .nav-item, .social__item {
@@ -102,6 +102,9 @@ header .outer-container {
   color: grey;
 }
 
+.section-subheader {
+  font-style: italic;
+}
 /* End of TYPOGRAPHY */
 
 
@@ -212,7 +215,6 @@ header{
 
 .section-subheader {
   margin: 10px 0;
-  font-style: italic;
 }
 
 .section-header__container .line {
