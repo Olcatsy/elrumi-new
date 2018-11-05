@@ -3,8 +3,8 @@
 #cefdfd - light teal (active submit button)
 #FFD96D - yellow
 #FFE6A2 - ligth yellow (active read-more button)
-#FF9496 - salmon pink (hover links)
-#FFB3B4 - lighter salmon pink (active links)
+#F46164 - salmon  (hover links)
+#F67D80 - lighter salmon (active links)
 #e6e6e6 - platinum grey
 */
 
@@ -21,11 +21,11 @@ a {
 }
 
 a:hover {
-  color: #ff9496;
+  color: #F46164;
 }
 
 a:active {
-  color: #ffb3b4;
+  color: #F67D80;
 }
 
 ul {
@@ -77,8 +77,8 @@ header .outer-container {
   letter-spacing: 3px;
 }
 
-.logo, h2, h3, .skills-percent, .section-header, .facts-number, .large-teal, .nav-item, .social__item {
-    font-weight: 700;
+.logo, h2, h3, .skills-percent, .section-header, .facts-number, .large-teal, .nav-item, .social__item, .copy-big{
+    font-weight: bold;
 }
 
 .logo, h2, .facts-number {
@@ -89,13 +89,15 @@ header .outer-container {
   font-size: 0.8rem;
 }
 
-.copy-big {
-  font-weight: 500;
-}
-
 .copy, .section-subheader {
   font-family: "Roboto Slab", serif;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
+}
+
+@media screen and (min-width: 786px) {
+  .copy, .section-subheader {
+    font-size: 0.9rem;
+  }
 }
 
 .copy {

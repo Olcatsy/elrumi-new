@@ -5,7 +5,7 @@ main {
 main .inner-container {
   margin: auto;
   max-width: 900px;
-  padding: 60px 20px;
+  padding: 60px 20px 110px 20px;
 }
 
 @media screen and (min-width: 660px) {
@@ -106,4 +106,26 @@ h1 {
 }
 
 /* End of Blocks */
+.older-button {
+  display: block;
+  color: white;
+  background-color: black;
+  padding: 20px 50px;
+  border: none;
+  outline: none;
+  margin: auto;
+  transition: all 0.3s ease-in-out;
+}
+
+  .older-button:hover {
+    background-color: #92fcf9;
+    color: black;
+    }
+
+  .older-button:active {
+    background-color: #cefdfd;
+    color: black;
+    }
+
+
 /* End of BLOG */
